@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6772ABA86746FAE6EB8B230 /* Pods_FabButtonTester.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A536EF18ECD93D9274E8A48 /* Pods_FabButtonTester.framework */; };
+		FCB293961CE648CD00D2FFCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB293951CE648CD00D2FFCF /* AppDelegate.swift */; };
+		FCB293981CE648CD00D2FFCF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB293971CE648CD00D2FFCF /* ViewController.swift */; };
+		FCB2939B1CE648CD00D2FFCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCB293991CE648CD00D2FFCF /* Main.storyboard */; };
+		FCB2939D1CE648CD00D2FFCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCB2939C1CE648CD00D2FFCF /* Assets.xcassets */; };
+		FCB293A01CE648CD00D2FFCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCB2939E1CE648CD00D2FFCF /* LaunchScreen.storyboard */; };
+		FCB293A81CE648F600D2FFCF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB293A71CE648F600D2FFCF /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A757E05F5951ADBE4A37B6A /* Pods-FabButtonTester.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FabButtonTester.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FabButtonTester/Pods-FabButtonTester.debug.xcconfig"; sourceTree = "<group>"; };
+		1A536EF18ECD93D9274E8A48 /* Pods_FabButtonTester.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FabButtonTester.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2544D269093015AC4DDFA420 /* Pods-FabButtonTester.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FabButtonTester.release.xcconfig"; path = "Pods/Target Support Files/Pods-FabButtonTester/Pods-FabButtonTester.release.xcconfig"; sourceTree = "<group>"; };
+		FCB293921CE648CD00D2FFCF /* FabButtonTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FabButtonTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCB293951CE648CD00D2FFCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCB293971CE648CD00D2FFCF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FCB2939A1CE648CD00D2FFCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCB2939C1CE648CD00D2FFCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCB2939F1CE648CD00D2FFCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCB293A11CE648CD00D2FFCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCB293A71CE648F600D2FFCF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCB2938F1CE648CD00D2FFCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCB293A81CE648F600D2FFCF /* MapKit.framework in Frameworks */,
+				B6772ABA86746FAE6EB8B230 /* Pods_FabButtonTester.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D21A125DBE33EC3B1C1D2FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A536EF18ECD93D9274E8A48 /* Pods_FabButtonTester.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0FEAF38A667389A75E2E19A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A757E05F5951ADBE4A37B6A /* Pods-FabButtonTester.debug.xcconfig */,
+				2544D269093015AC4DDFA420 /* Pods-FabButtonTester.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FCB293891CE648CD00D2FFCF = {
+			isa = PBXGroup;
+			children = (
+				FCB293A71CE648F600D2FFCF /* MapKit.framework */,
+				FCB293941CE648CD00D2FFCF /* FabButtonTester */,
+				FCB293931CE648CD00D2FFCF /* Products */,
+				F0FEAF38A667389A75E2E19A /* Pods */,
+				8D21A125DBE33EC3B1C1D2FE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FCB293931CE648CD00D2FFCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCB293921CE648CD00D2FFCF /* FabButtonTester.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCB293941CE648CD00D2FFCF /* FabButtonTester */ = {
+			isa = PBXGroup;
+			children = (
+				FCB293951CE648CD00D2FFCF /* AppDelegate.swift */,
+				FCB293971CE648CD00D2FFCF /* ViewController.swift */,
+				FCB293991CE648CD00D2FFCF /* Main.storyboard */,
+				FCB2939C1CE648CD00D2FFCF /* Assets.xcassets */,
+				FCB2939E1CE648CD00D2FFCF /* LaunchScreen.storyboard */,
+				FCB293A11CE648CD00D2FFCF /* Info.plist */,
+			);
+			path = FabButtonTester;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCB293911CE648CD00D2FFCF /* FabButtonTester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCB293A41CE648CD00D2FFCF /* Build configuration list for PBXNativeTarget "FabButtonTester" */;
+			buildPhases = (
+				44B5BD5968961299E858B9B9 /* 📦 Check Pods Manifest.lock */,
+				FCB2938E1CE648CD00D2FFCF /* Sources */,
+				FCB2938F1CE648CD00D2FFCF /* Frameworks */,
+				FCB293901CE648CD00D2FFCF /* Resources */,
+				7EB962D6BFEA8D809792CB3B /* 📦 Embed Pods Frameworks */,
+				5155970CA489AFAD68340D02 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FabButtonTester;
+			productName = FabButtonTester;
+			productReference = FCB293921CE648CD00D2FFCF /* FabButtonTester.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCB2938A1CE648CD00D2FFCF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = urizev.com;
+				TargetAttributes = {
+					FCB293911CE648CD00D2FFCF = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FCB2938D1CE648CD00D2FFCF /* Build configuration list for PBXProject "FabButtonTester" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCB293891CE648CD00D2FFCF;
+			productRefGroup = FCB293931CE648CD00D2FFCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCB293911CE648CD00D2FFCF /* FabButtonTester */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCB293901CE648CD00D2FFCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCB293A01CE648CD00D2FFCF /* LaunchScreen.storyboard in Resources */,
+				FCB2939D1CE648CD00D2FFCF /* Assets.xcassets in Resources */,
+				FCB2939B1CE648CD00D2FFCF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44B5BD5968961299E858B9B9 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5155970CA489AFAD68340D02 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FabButtonTester/Pods-FabButtonTester-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EB962D6BFEA8D809792CB3B /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FabButtonTester/Pods-FabButtonTester-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCB2938E1CE648CD00D2FFCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCB293981CE648CD00D2FFCF /* ViewController.swift in Sources */,
+				FCB293961CE648CD00D2FFCF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FCB293991CE648CD00D2FFCF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCB2939A1CE648CD00D2FFCF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCB2939E1CE648CD00D2FFCF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCB2939F1CE648CD00D2FFCF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCB293A21CE648CD00D2FFCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCB293A31CE648CD00D2FFCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCB293A51CE648CD00D2FFCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A757E05F5951ADBE4A37B6A /* Pods-FabButtonTester.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FabButtonTester/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.urizev.FabButtonTester;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FCB293A61CE648CD00D2FFCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2544D269093015AC4DDFA420 /* Pods-FabButtonTester.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FabButtonTester/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.urizev.FabButtonTester;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCB2938D1CE648CD00D2FFCF /* Build configuration list for PBXProject "FabButtonTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCB293A21CE648CD00D2FFCF /* Debug */,
+				FCB293A31CE648CD00D2FFCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCB293A41CE648CD00D2FFCF /* Build configuration list for PBXNativeTarget "FabButtonTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCB293A51CE648CD00D2FFCF /* Debug */,
+				FCB293A61CE648CD00D2FFCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCB2938A1CE648CD00D2FFCF /* Project object */;
+}
